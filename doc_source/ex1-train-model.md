@@ -72,8 +72,7 @@ If you run this installation in your exiting SageMaker Studio or Notebook instan
    xgb_model.set_hyperparameters(max_depth = 5,
                                  eta = .2,
                                  gamma = 4,
-                                 min_child_weight = 6,
-                                 silent = 0,
+                                 min_child_weight = 6,                                 
                                  objective = "multi:softmax",
                                  num_class = 10,
                                  num_round = 10)
